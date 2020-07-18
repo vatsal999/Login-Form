@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: black;
+}
+
+.loginform{
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #9D00FF;
+    
+}
+
+h3{
+    font-size: 60px;
+    padding: 10px ;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.loginform input[type= "text"]{
+    border:0;
+    background: none;
+    outline: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00FFFF;
+    border-radius: 30px;
+    padding: 20px 50px;
+    transition: ease-in 0.5s;
+}
+
+.loginform input[type= "text"]:focus{
+    border-color: #9D00FF;
+    width: 200px;
+}
+.loginform input[type= "submit"]{
+    border:0;
+    background: none;
+    outline: none;
+    display: block;
+    margin: 30px auto;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #00FFFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border-color: #00FF00;
+
+}
+.loginform input[type= "submit"]:hover{
+    box-shadow: 0 0 20px  #00FF00;
+}
+
